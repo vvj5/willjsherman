@@ -13,6 +13,11 @@ p {
   line-height: 2rem;
 }
 
+span.highlight {
+    background-color: #4DB6AC;
+}
+</style>
+
 .button-collapse {
   color: #ffffff;
 }
