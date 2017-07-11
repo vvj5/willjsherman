@@ -9,7 +9,6 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <script src="https://use.fontawesome.com/0617c3edc9.js"></script>
-
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -19,6 +18,21 @@
 </head>
 <body>
 
+
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="mailto:will@willjsherman.com"><i class="fa fa-2x fa-envelope-square icon"></i></a></li>
+  <li><a href="tel:0481390359"><i class="fa fa-2x fa-phone-square icon"></i></a></li>
+  <li><a href="http://linkedin.com/in/willjsherman"><i class="fa fa-2x fa-linkedin-square icon"></i></a></li>
+  <li><a href="Will_Sherman_resume.pdf" target="_blank">CV</a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="mailto:will@willjsherman.com"><i class="fa fa-2x fa-envelope-square icon"></i></a></li>
+  <li><a href="tel:0481390359"><i class="fa fa-2x fa-phone-square icon"></i></a></li>
+  <li><a href="http://linkedin.com/in/willjsherman"><i class="fa fa-2x fa-linkedin-square icon"></i></a></li>
+  <li><a href="Will_Sherman_resume.pdf" target="_blank">CV</a></li>
+</ul>
+
 <nav class="$primary-color" role="navigation">
   <div class="nav-wrapper">
     <a id="logo-container" href="index.html" class="brand-logo"><img src="images/wjs_logo.svg"></a>
@@ -27,7 +41,7 @@
       <li><a href="toolbox.html">Toolbox</a></li>
       <li><a href="case_studies.html">Case Studies</a></li>
       <li><a href="testimonials.html">Testimonials</a></li>
-      <li><a href="#connect">Connect</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Connect<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
 
     <ul id="nav-mobile" class="side-nav">
@@ -35,7 +49,7 @@
       <li><a href="toolbox.html">Toolbox</a></li>
       <li><a href="case_studies.html">Case Studies</a></li>
       <li><a href="testimonials.html">Testimonials</a></li>
-      <li><a href="#connect">Contact</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Connect<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
     <a href="index.html" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
   </div>
@@ -51,24 +65,25 @@
           <span class="hero_title">Will Sherman</span>
         </h1>
         <div class="row center">
-          <h5 class="header col s12 light">
-            <span class="hero_subtitle">A Slashie Between The Lines</
+          <h5 class="header col s12">
+            <span class="hero_subtitle pink-text"><strong>/SLASHIE/</strong><br><br></span>
+            <span class="hero_subtitle">UX / CX / Product / Project</span>
           </h5>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="images/backgrounds/2b.jpg" alt=""></div>
   </div>
-
+<!--
   <div class="row teal lighten-4 valign-wrapper">
     <div class="container">
-        <div class="row center teal-text text-darken-2"><br>I am currently seeking opportunities in/around the realms of UX Design / CX Analysis / Product Design / Project Management <br><br></div>
+        <div class="row center teal-text text-darken-2"><br>Slashie: UX Design / CX Analysis / Product Design / Project Management <br><br></div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="container">
+  <div class="container-fluid teal">
     <div class="section">
-
+    <div class="container white-text">
       <div class="row">
         <div class="col s12 center scrollspy" id="story">
           <h4><span class="slab">MY STORY</span></h4>
@@ -91,7 +106,7 @@
           <br><br>
           For more about my projects and processes, please see the <span class="highlight"><a href="case_studies.html"> Case Studies</a></span> section of my site.
           <br><br>
-          My strongest performances come when I am working in a collaborative, vibrant environment, where ideas can be proposed and developed in an atmosphere of tolerance, respect and creativity.
+          My strongest performances come when I am working in a collaborative, vibrant environment, where ideas can be proposed and developed in an atmosphere of tolerance, respect and transparency.
           <br><br>
           Though I do take my work seriously, I don't take myself too seriously, and I truly love what I do.
           <br><br>
@@ -101,7 +116,7 @@
           </p>
         </div>
       </div>
-
+      </div>
     </div>
   </div>
 
@@ -110,43 +125,27 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 slab pink-text">STOP. Collaborate and Listen.</h5>
+          <h5 class="header col s12 slab pink-text bottom_title">STOP. Collaborate and Listen.</h5>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="images/backgrounds/4.jpg" alt=""></div>
   </div>
 
-  <footer class="page-footer teal lighten-2">
+<footer class="page-footer teal lighten-2">
+  <div class="container center">
     <div class="row">
-      <div class="col l6 s12">
-        <span class="slab"><h5 class="white-text">Will Sherman</h5></span>
-        <p class="grey-text text-lighten-4 light">I love working cross-functionally with clients, creative and development teams to get things done. I believe in UX as a governing philosophy for all things in life. <br><br>
-        In my personal time I love gardening, building stuff, smoking meats and fermenting things.</p>
-      </div>
-      <div class="col l3 s12">
-        <h5 class="white-text">Site Nav</h5>
-        <ul>
-          <li><a href="index.html#story"> > My Story</a></li>
-          <li><a href="toolbox.html"> > Toolbox</a></li>
-          <li><a href="case_studies.html"> > Case Studies</a></li>
-          <li><a href="testimonials.html"> > Testimonials</a></li>
-          <li><a href="#connect"> > Connect</a></li>
-        </ul>
-      </div>
-      <div class="col l3 s12 scrollspy" id="connect">
-        <h5 class="white-text">Connect</h5>
-        <ul>
-          <li><a href="Will_Sherman_resume.pdf" target="_blank"><i class="fa fa-2x fa-file-pdf-o"></i> My Resume</a></li>
-          <li><a href="mailto:will@willjsherman.com"><i class="fa fa-2x fa-envelope-square"></i> will@willjsherman.com</a></li>
-          <li><a href="tel:0481390359"><i class="fa fa-2x fa-phone-square"></i> 0481 390 359</a></li>
-          <li><a href="http://linkedin.com/in/willjsherman"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
-        </ul>
+      <div class="col s12 scrollspy" id="connect">
+         <a href="mailto:will@willjsherman.com"><i class="fa fa-2x fa-envelope-square icon"></i></a>
+         <a href="tel:0481390359"><i class="fa fa-2x fa-phone-square icon"></i></a>
+         <a href="http://linkedin.com/in/willjsherman"><i class="fa fa-2x fa-linkedin-square icon"></i></a>
+         <a href="Will_Sherman_resume.pdf" target="_blank"><i class="fa fa-2x fa-file-pdf-o icon"></i>(CV)</a><br><br>
       </div>
     </div>
+    </div>
   <div class="footer-copyright">
-    <div class="container">
-    <a class="teal-text text-darken-2">Copyright Will Sherman 2017</a>
+    <div class="container center">
+      <a class="teal-text text-darken-2">Copyright Will Sherman 2017</a>
     </div>
   </div>
 </footer>
