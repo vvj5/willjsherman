@@ -23,24 +23,28 @@ span.highlight {
 }
 
 .hero_title {
-  font-family: 'Roboto Slab';
+  /*font-family: 'Roboto Slab';*/
+  font-family: 'Work Sans';
+  font-weight: 700;
   font-size: .75em;
   color: #ffffff;
   line-height: 2em;
-  text-shadow: 2px 2px 6px #000000;
+  /*text-shadow: 2px 2px 6px #000000;*/
 }
 
 .hero_subtitle {
-  font-family: 'Roboto';
-  font-weight: 300;
+  /*font-family: 'Roboto';*/
+  font-family: 'Work Sans';
+  /*font-weight: 300;*/
   font-size: .75em;
   color: #ffffff;
   line-height: 2em;
-  text-shadow: 2px 2px 6px #000000;
+  /*text-shadow: 2px 2px 6px #000000;*/
 }
 
 .bottom_title {
-  font-family: 'Roboto Slab';
+  /*font-family: 'Roboto Slab';*/
+  font-family: 'Work Sans';
   font-size: 1em;
   line-height: 1;
   text-shadow: 2px 2px 6px #000000;
@@ -57,8 +61,11 @@ span.highlight {
 }
 
 .slab {
-  font-family: 'Roboto Slab';
-  font-size: 36px;
+  font-family: 'Work Sans';
+  font-weight: 700;
+  font-size: .75em;
+  color: #ffffff;
+  line-height: 2em;
 }
 
 .icon {
