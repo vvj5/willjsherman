@@ -18,36 +18,52 @@ span.highlight {
 }
 </style>
 
+body {
+  overflow-x:hidden;
+}
+
+hr {
+  width: 66%;
+}
+
 .button-collapse {
   color: #ffffff;
 }
 
+.card-action {
+  color: #E91E63;
+}
+
 .hero_title {
-  /*font-family: 'Roboto Slab';*/
-  font-family: 'Work Sans';
-  font-weight: 700;
-  font-size: .75em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 2em;
   color: #ffffff;
-  line-height: 2em;
-  /*text-shadow: 2px 2px 6px #000000;*/
+  line-height: 3;
+  letter-spacing: 4px;
 }
 
 .hero_subtitle {
-  /*font-family: 'Roboto';*/
-  font-family: 'Work Sans';
-  /*font-weight: 300;*/
-  font-size: .75em;
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 3;
+}
+
+.hero_subsubtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
   color: #ffffff;
-  line-height: 2em;
-  /*text-shadow: 2px 2px 6px #000000;*/
+  line-height: 3;
+  letter-spacing: 3px;
 }
 
 .bottom_title {
-  /*font-family: 'Roboto Slab';*/
-  font-family: 'Work Sans';
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
   font-size: 1em;
   line-height: 1;
-  text-shadow: 2px 2px 6px #000000;
 }
 
 .parallax-container {
@@ -58,14 +74,6 @@ span.highlight {
 }
 .parallax-container .section {
   width: 100%;
-}
-
-.slab {
-  font-family: 'Work Sans';
-  font-weight: 700;
-  font-size: .75em;
-  color: #ffffff;
-  line-height: 2em;
 }
 
 .icon {
