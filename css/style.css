@@ -24,6 +24,7 @@ body {
 
 hr {
   width: 66%;
+  border-top: 0px;
 }
 
 .button-collapse {
